@@ -29,6 +29,7 @@ header{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 header > h1{
@@ -36,12 +37,13 @@ header > h1{
     font-size: 2em;
     padding: 10px;
     flex: 0 0 200px;
-
+    border: 1px dashed white;
 }
 
 header nav{
     display: flex;
     flex-flow: row wrap;
+    border: 1px dashed white;
 }
 header > nav >a {
     text-decoration: none;
@@ -50,6 +52,7 @@ header > nav >a {
     background-color:  #F2A71B ;
     margin: 10px;
     border-radius: 5px;
+    text-align: center;
 }
 
 header > nav > a:hover{
